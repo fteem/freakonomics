@@ -1,28 +1,74 @@
 # Freakonomics
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/freakonomics`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Freakonomics is a CLI app built with Ruby. It's purpose is to download episodes of 
+one of my favourite podcasts - [Freakonomics](http://freakonomics.com).
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'freakonomics'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install freakonomics
 
 ## Usage
 
-TODO: Write usage instructions here
+### Download latest episode
+
+You can download the latest episode via:
+
+```ruby
+freak latest
+```
+
+You can also specify a download path: 
+
+```ruby
+freak latest path_to_all_episodes
+```
+
+### Download all episodes
+
+You can download all episodes via:
+
+```ruby
+freak download --all
+```
+or
+
+```ruby
+freak download -a
+```
+
+You can also specify a download path: 
+
+```ruby
+freak download --all path_to_all_episodes
+```
+
+Note: The directory will be created if it does not exist.
+
+### Download single episode
+
+By name:
+
+```ruby
+freak download --name "Do More Expensive Wines Taste Better?"
+```
+
+By release date:
+
+```ruby
+freak download --date "01 Dec 2010"
+```
+
+## To do
+
+[] Download latest
+[] Download latest with path
+[] Download all
+[] Download all with path
+[] Download single episode by name
+[] Download single episode by release date
+
 
 ## Development
 
