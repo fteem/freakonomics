@@ -62,12 +62,12 @@ freak download --date "01 Dec 2010"
 
 ## To do
 
-[ ] Download latest
-[ ] Download latest with path
-[ ] Download all
-[ ] Download all with path
-[ ] Download single episode by name
-[ ] Download single episode by release date
+- [ ] Download latest
+- [ ] Download latest with path
+- [ ] Download all
+- [ ] Download all with path
+- [ ] Download single episode by name
+- [ ] Download single episode by release date
 
 
 ## Development
