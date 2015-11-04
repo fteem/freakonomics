@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    freakonomics (0.1.0)
+      ox (~> 2.2.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.8.2)
+    ox (2.2.2)
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.10)
+  freakonomics!
+  minitest
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.10.6
