@@ -1,4 +1,3 @@
-require 'open-uri'
 require 'progressbar'
 
 class Freakonomics::Downloader
@@ -46,7 +45,7 @@ class Freakonomics::Downloader
 
     download = open(url,
       content_length_proc: proc { |total| 
-        progress_bar = ProgressBar.new("Download:", total)
+        progress_bar = ProgressBar.new("Download", total)
       },
       progress_proc: proc { |step|
         progress_bar.set(step)
