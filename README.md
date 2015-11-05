@@ -74,6 +74,7 @@ freak download --date "01 Dec 2010"
 - [x] Download single episode by release date
 - [x] Download single episode by name with path
 - [x] Download single episode by release date with path
+- [ ] Test coverage!
 
 
 ## Development
