@@ -22,7 +22,7 @@ freak latest
 You can also specify a download path: 
 
 ```ruby
-freak latest path_to_all_episodes
+freak latest path_to_episode
 ```
 
 ### Download all episodes
@@ -41,7 +41,11 @@ freak download -a
 You can also specify a download path: 
 
 ```ruby
-freak download --all path_to_all_episodes
+freak download --all --path path_to_all_episodes
+```
+
+```ruby
+freak download -a -p path_to_all_episodes
 ```
 
 Note: The directory will be created if it does not exist.
@@ -62,11 +66,11 @@ freak download --date "01 Dec 2010"
 
 ## To do
 
-- [ ] Download latest
+- [x] Download latest
 - [ ] Download latest with path
-- [ ] Download all
+- [x] Download all
 - [ ] Download all with path
-- [ ] Download single episode by name
+- [x] Download single episode by name
 - [ ] Download single episode by release date
 
 

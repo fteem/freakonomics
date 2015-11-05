@@ -1,0 +1,67 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Freakonomics Radio</title>
+    <link>http://www.wnyc.org/articles/freakonomics-podcast/</link>
+    <description>In their books "Freakonomics," "SuperFreakonomics" and "Think Like a Freak", Steven D. Levitt and Stephen J. Dubner  explore "the hidden side of everything," telling stories about cheating schoolteachers and eating champions while teaching us all to think a bit more creatively, rationally, and productively. The Freakonomics Radio podcast, hosted by Dubner, carries on that tradition with weekly episodes. Prepare to be enlightened, engaged, perhaps enraged, and definitely surprised.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Oct 2015 23:00:00 -0400</lastBuildDate>
+    <ttl>600</ttl>
+    <itunes:explicit>no</itunes:explicit>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/freakonomicsradio" />
+    <feedburner:info uri="freakonomicsradio" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <media:copyright>Stephen J. Dubner and WNYC</media:copyright>
+    <media:thumbnail url="https://media2.wnyc.org/i/1400/1400/l/80/1/wn16_wnycstudios_freakonomics-rev3.png" />
+    <media:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio,studios</media:keywords>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture</media:category>
+    <itunes:author>Stephen J. Dubner and WNYC Studios</itunes:author>
+    <itunes:image href="https://media2.wnyc.org/i/1400/1400/l/80/1/wn16_wnycstudios_freakonomics-rev3.png" />
+    <itunes:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio,studios</itunes:keywords>
+    <itunes:subtitle>Have fun discovering the hidden side of everything with host Stephen J. Dubner, co-author of the best-selling "Freakonomics” books. Each week, hear surprising conversations that explore the riddles of everyday life and the weird wrinkles of human nature—f</itunes:subtitle>
+    <itunes:summary>Have fun discovering the hidden side of everything with host Stephen J. Dubner, co-author of the best-selling "Freakonomics” books. Each week, hear surprising conversations that explore the riddles of everyday life and the weird wrinkles of human nature—from cheating and crime to parenting and sports. Dubner talks with Nobel laureates and provocateurs, social scientists and entrepreneurs — and his “Freakonomics” co-author Steve Levitt. After just a few episodes, this podcast will have you too thinking like a Freak. Produced by WNYC Studios, home of other great podcasts such as “Radiolab," "Death, Sex &amp; Money," and "On the Media."</itunes:summary>
+    <itunes:category text="Society &amp; Culture" />
+    <item>
+      <title>Why the World Cup Is an Economist's Dream</title>
+      <link>http://feedproxy.google.com/~r/freakonomicsradio/~3/Y1gb6KcLa3E/</link>
+      <description>&lt;p&gt;Steve Levitt talks about why the center cannot hold in penalty kicks, why a running track hurts home-field advantage, and why the World Cup is an economist's dream.&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/freakonomicsradio/~4/Y1gb6KcLa3E" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Thu, 10 Jun 2010 02:25:46 -0400</pubDate>
+      <guid isPermaLink="false">http://www.wnyc.org/articles/freakonomics-podcast/2010/jun/10/why-the-world-cup-is-an-economists-dream/</guid>
+      <media:content url="http://feedproxy.google.com/~r/freakonomicsradio/~5/jM8e2v0Vx4M/freakonomics_podcast061010.mp3" type="audio/mpeg" />
+      <media:description type="plain">Why the World Cup Is an Economist's Dream</media:description>
+      <itunes:summary><![CDATA[<p>Steve Levitt talks about why the center cannot hold in penalty kicks, why a running track hurts home-field advantage, and why the World Cup is an economist's dream.</p>]]></itunes:summary>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Stephen J. Dubner and WNYC Studios</dc:creator>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Steve Levitt talks about why the center cannot hold in penalty kicks, why a running track hurts home-field advantage, and why the World Cup is an economist's dream.</itunes:subtitle>
+      <itunes:author>Stephen J. Dubner and WNYC Studios</itunes:author>
+      <itunes:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio,studios</itunes:keywords>
+      <feedburner:origLink>http://www.wnyc.org/articles/freakonomics-podcast/2010/jun/10/why-the-world-cup-is-an-economists-dream/</feedburner:origLink>
+      <enclosure url="http://feedproxy.google.com/~r/freakonomicsradio/~5/jM8e2v0Vx4M/freakonomics_podcast061010.mp3" length="0" type="audio/mpeg" />
+      <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/freakonomics_podcast/freakonomics_podcast061010.mp3</feedburner:origEnclosureLink>
+    </item>
+    <item>
+      <title>Why the World Cup Is an Economist's Dream</title>
+      <link>http://feedproxy.google.com/~r/freakonomicsradio/~3/Y1gb6KcLa3E/</link>
+      <description>&lt;p&gt;Steve Levitt talks about why the center cannot hold in penalty kicks, why a running track hurts home-field advantage, and why the World Cup is an economist's dream.&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/freakonomicsradio/~4/Y1gb6KcLa3E" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Thu, 10 Jun 2010 02:25:46 -0400</pubDate>
+      <guid isPermaLink="false">http://www.wnyc.org/articles/freakonomics-podcast/2010/jun/10/why-the-world-cup-is-an-economists-dream/</guid>
+      <media:content url="http://feedproxy.google.com/~r/freakonomicsradio/~5/jM8e2v0Vx4M/freakonomics_podcast061010.mp3" type="audio/mpeg" />
+      <media:description type="plain">Why the World Cup Is an Economist's Dream</media:description>
+      <itunes:summary><![CDATA[<p>Steve Levitt talks about why the center cannot hold in penalty kicks, why a running track hurts home-field advantage, and why the World Cup is an economist's dream.</p>]]></itunes:summary>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Stephen J. Dubner and WNYC Studios</dc:creator>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Steve Levitt talks about why the center cannot hold in penalty kicks, why a running track hurts home-field advantage, and why the World Cup is an economist's dream.</itunes:subtitle>
+      <itunes:author>Stephen J. Dubner and WNYC Studios</itunes:author>
+      <itunes:keywords>freakonomics,wnyc,american,public,media,Stephen,Dubner,Steven,Levitt,public,radio,freakonomics,radio,new,york,public,radio,apm,wnyc,radio,studios</itunes:keywords>
+      <feedburner:origLink>http://www.wnyc.org/articles/freakonomics-podcast/2010/jun/10/why-the-world-cup-is-an-economists-dream/</feedburner:origLink>
+      <enclosure url="http://feedproxy.google.com/~r/freakonomicsradio/~5/jM8e2v0Vx4M/freakonomics_podcast061010.mp3" length="0" type="audio/mpeg" />
+      <feedburner:origEnclosureLink>http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/freakonomics_podcast/freakonomics_podcast061010.mp3</feedburner:origEnclosureLink>
+    </item>
+    <copyright>Stephen J. Dubner and WNYC</copyright>
+    <media:credit role="author">Stephen J. Dubner and WNYC Studios</media:credit>
+    <media:rating>nonadult</media:rating>
+  </channel>
+</rss>

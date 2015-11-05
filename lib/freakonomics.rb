@@ -1,5 +1,8 @@
 require "freakonomics/version"
+require "freakonomics/downloader"
+require "freakonomics/fetcher"
+require "freakonomics/parser"
+require "freakonomics/reporter"
 
 module Freakonomics
-  # Your code goes here...
 end

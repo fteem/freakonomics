@@ -1,0 +1,62 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require "freakonomics"
+require "optparse"
+
+options = {}
+
+base = OptionParser.new do |opts|
+  opts.banner = "Usage: freak COMMAND [options] [subject]"
+
+  opts.separator ""
+  opts.separator <<HELP
+Commonly used command are:
+  latest :     Download the latest Freakonomics episode
+  download : Download episode(s)
+  See 'fn-salesforce COMMAND --help' for more information on a specific command.
+HELP
+
+end
+
+commands = { 
+  latest: OptionParser.new  { |opts|
+    opts.banner = "Usage: freak latest --path path-to-save-episode"
+    opts.on("-p PATH", "--path PATH", "PATH where to save the episode. If PATH does not exist, it will be created.") do |p|
+      options[:path] = p.strip
+    end
+  },
+  download: OptionParser.new  { |opts|
+    opts.banner = "Usage: freak download [options]"
+
+    options[:all] = false
+    opts.on("-a", "--all", "Download ALL episodes") do
+      options[:all] = true
+    end
+    opts.on("-p PATH", "--path PATH", "PATH where to save the episodes.") do |p|
+      options[:path] = p.strip
+    end
+    opts.on("-n NAME", "--name NAME", "The name of the episode.") do |n|
+      options[:name] = n.strip
+    end
+    opts.on("-d RELEASE_DATE", "--date RELEASE_DATE", "The release date of the episode.") do |d|
+      options[:date] = d.strip
+      exit "Not implemented."
+    end
+  } 
+}
+
+command_key = (ARGV.shift || "").to_sym
+command = commands[command_key] || base
+
+command.parse!
+
+case command_key
+when :latest
+  Freakonomics::Downloader.latest(options)
+when :download
+  Freakonomics::Downloader.download(options)
+else
+  puts command
+end
