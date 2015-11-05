@@ -22,7 +22,7 @@ freak latest
 You can also specify a download path: 
 
 ```ruby
-freak latest path_to_episode
+freak latest -p/--path "freakonomics_episodes/new"
 ```
 
 ### Download all episodes
@@ -41,11 +41,7 @@ freak download -a
 You can also specify a download path: 
 
 ```ruby
-freak download --all --path path_to_all_episodes
-```
-
-```ruby
-freak download -a -p path_to_all_episodes
+freak download -a/--all -p/--path path_to_all_episodes
 ```
 
 Note: The directory will be created if it does not exist.
