@@ -67,11 +67,13 @@ freak download --date "01 Dec 2010"
 ## To do
 
 - [x] Download latest
-- [ ] Download latest with path
+- [x] Download latest with path
 - [x] Download all
-- [ ] Download all with path
+- [x] Download all with path
 - [x] Download single episode by name
-- [ ] Download single episode by release date
+- [x] Download single episode by release date
+- [x] Download single episode by name with path
+- [x] Download single episode by release date with path
 
 
 ## Development
@@ -82,5 +84,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/freakonomics.
+Bug reports and pull requests are welcome on GitHub at https://github.com/fteem/freakonomics.
 

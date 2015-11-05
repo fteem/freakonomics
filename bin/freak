@@ -13,8 +13,9 @@ base = OptionParser.new do |opts|
   opts.separator ""
   opts.separator <<HELP
 Commonly used command are:
-  latest :     Download the latest Freakonomics episode
-  download : Download episode(s)
+  latest : Download the latest Freakonomics episode.
+  episode: Download a single Freakonomics episode.
+  all : Download all Freakonomics episodes.
   See 'fn-salesforce COMMAND --help' for more information on a specific command.
 HELP
 
@@ -27,22 +28,24 @@ commands = {
       options[:path] = p.strip
     end
   },
-  download: OptionParser.new  { |opts|
-    opts.banner = "Usage: freak download [options]"
+  episode: OptionParser.new  { |opts|
+    opts.banner = "Usage: freak episode [options]"
 
-    options[:all] = false
-    opts.on("-a", "--all", "Download ALL episodes") do
-      options[:all] = true
-    end
     opts.on("-p PATH", "--path PATH", "PATH where to save the episodes.") do |p|
       options[:path] = p.strip
     end
     opts.on("-n NAME", "--name NAME", "The name of the episode.") do |n|
       options[:name] = n.strip
     end
-    opts.on("-d RELEASE_DATE", "--date RELEASE_DATE", "The release date of the episode.") do |d|
-      options[:date] = d.strip
-      exit "Not implemented."
+    opts.on("-d PUBLISH_DATE", "--date PUBLISH_DATE", "The publish date of the episode.") do |d|
+      options[:publish_date] = d.strip
+    end
+  },
+  all: OptionParser.new  { |opts|
+    opts.banner = "Usage: freak all [options]"
+
+    opts.on("-p PATH", "--path PATH", "PATH where to save the episodes.") do |p|
+      options[:path] = p.strip
     end
   } 
 }
@@ -54,9 +57,11 @@ command.parse!
 
 case command_key
 when :latest
-  Freakonomics::Downloader.latest(options)
-when :download
-  Freakonomics::Downloader.download(options)
+  Freakonomics::CLI.latest(options)
+when :episode
+  Freakonomics::CLI.episode(options)
+when :all
+  Freakonomics::CLI.all(options)
 else
   puts command
 end

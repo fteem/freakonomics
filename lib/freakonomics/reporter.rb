@@ -3,6 +3,10 @@ class Freakonomics::Reporter
     puts "Downloading Episode: \"#{file_name}\"..."
   end
 
+  def self.downloaded file_name
+    puts "Episode: \"#{file_name}\" downloaded."
+  end
+
   def self.all
     puts "Downloading ALL Episodes..."
   end
