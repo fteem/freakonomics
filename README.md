@@ -2,6 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/fteem/freakonomics/badges/gpa.svg)](https://codeclimate.com/github/fteem/freakonomics)
 [![Test Coverage](https://codeclimate.com/github/fteem/freakonomics/badges/coverage.svg)](https://codeclimate.com/github/fteem/freakonomics/coverage)
+[![Build Status](https://travis-ci.org/fteem/freakonomics.svg)](https://travis-ci.org/fteem/freakonomics)
 
 Freakonomics is a CLI app built with Ruby. It's purpose is to download episodes of 
 one of my favourite podcasts - [Freakonomics](http://freakonomics.com).
