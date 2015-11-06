@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     freakonomics (0.1.0)
-      nokogiri
-      progressbar
+      nokogiri (~> 1.6.6.0)
+      progressbar (~> 0.6)
 
 GEM
   remote: https://rubygems.org/
@@ -21,7 +21,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.10)
   freakonomics!
-  minitest
+  minitest (~> 5.8)
   rake (~> 10.0)
 
 BUNDLED WITH
