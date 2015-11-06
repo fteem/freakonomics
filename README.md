@@ -34,18 +34,13 @@ freak latest -p/--path "freakonomics_episodes/new"
 You can download all episodes via:
 
 ```ruby
-freak download --all
-```
-or
-
-```ruby
-freak download -a
+freak all
 ```
 
 You can also specify a download path: 
 
 ```ruby
-freak download -a/--all -p/--path path_to_all_episodes
+freak all -p/--path path_to_all_episodes
 ```
 
 Note: The directory will be created if it does not exist.
@@ -55,13 +50,23 @@ Note: The directory will be created if it does not exist.
 By name:
 
 ```ruby
-freak download --name "Do More Expensive Wines Taste Better?"
+freak episode --name "Do More Expensive Wines Taste Better?"
 ```
 
 By release date:
 
 ```ruby
-freak download --date "01 Dec 2010"
+freak episode --date "01 Dec 2010"
+```
+
+Also, works with path:
+
+```ruby
+freak episode --date "01 Dec 2010" --path path_to_episodes
+```
+
+```ruby
+freak episode --name "Do More Expensive Wines Taste Better?" --path path_to_episodes
 ```
 
 ## To do
