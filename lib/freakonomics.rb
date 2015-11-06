@@ -6,6 +6,7 @@ require "freakonomics/reporter"
 require "freakonomics/cli"
 require "freakonomics/file_saver"
 require "open-uri"
+require "progressbar"
 
 module Freakonomics
 end

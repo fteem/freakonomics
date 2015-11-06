@@ -1,5 +1,3 @@
-require 'progressbar'
-
 class Freakonomics::Downloader
   def self.download name, url
     new.download(name, url)
