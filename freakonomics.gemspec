@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Freakonomics::VERSION
   spec.authors       = ["Ile Eftimov"]
   spec.email         = ["ileeftimov@gmail.com"]
-
+  spec.licenses      = ['MIT']
   spec.summary       = %q{Freakonomics Radio CLI downloader}
   spec.description   = %q{Freakonomics is a CLI app built with Ruby. It's purpose is to download episodes of Freakonomics Radio via the command line.}
   spec.homepage      = "https://github.com/fteem/freakonomics"
