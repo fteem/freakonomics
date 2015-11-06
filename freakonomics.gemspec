@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ile Eftimov"]
   spec.email         = ["ileeftimov@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Freakonomics Radio CLI downloader}
+  spec.description   = %q{Freakonomics is a CLI app built with Ruby. It's purpose is to download episodes of Freakonomics Radio via the command line.}
+  spec.homepage      = "https://github.com/fteem/freakonomics"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ["lib", "bin"]
 
   spec.add_dependency "nokogiri"
   spec.add_dependency "progressbar"
