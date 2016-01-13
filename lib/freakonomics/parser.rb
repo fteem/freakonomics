@@ -9,17 +9,21 @@ class Freakonomics::Parser
 
   def parse feed
     doc = Nokogiri::XML feed
-    episodes = doc.css("item")
-    episodes.inject([]) do |store, episode| 
-      store << {
-        name: extract_episode_title(episode),
-        url: extract_episode_url(episode),
-        publish_date: extract_episode_release_date(episode)
-      }
-    end
+    episodes = find_episodes_items(doc)
+    build_struct_from_episode(episodes)
   end
 
   private
+
+  def build_struct_from_episodes eps
+    eps.inject([]) do |store, episode|
+      store << { name: extract_episode_title(episode), url: extract_episode_url(episode), publish_date: extract_episode_release_date(episode) }
+    end
+  end
+
+  def find_episodes_items document
+    document.css("item")
+  end
 
   def extract_episode_title episode
     episode.css("title").children.first.text.strip
